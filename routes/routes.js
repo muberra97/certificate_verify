@@ -1,10 +1,10 @@
 const router = require('express').Router()
 const users = require("../data/participant.js");
-const serverless = require("serverless-http");
 
 module.exports = app => {
 
     const router = require('express').Router()
+
 
     router.get('/', (req, res, next) => {
         res.render('index.ejs')
@@ -22,5 +22,5 @@ module.exports = app => {
         
     })
 
-    app.use(`/.netlify`, router);
+    app.use('/participant', router)
 }
