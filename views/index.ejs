@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c03ec31dc2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+</body>
+
+<div class="input-group style-1">
+    <button onclick="submit()">
+        <!-- <a href="javascript:window.location=createDynamicURL();" > employee info </a> -->
+        <i class="fas fa-search"></i></button>
+    <input id = "certificate_id" type="text" placeholder="Sertifika ID'nizi giriniz">
+</div>
+
+<script>
+    const buttonOne = document.querySelector(".input-group.style-1 button");
+    const inputOne = document.querySelector(".input-group.style-1 input");
+    var certificate_id = document.getElementById("certificate_id").value
+
+    buttonOne.addEventListener("click", () => {
+        inputOne.classList.toggle("active");
+        buttonOne.classList.toggle("active");
+    });
+
+    function submit() {
+        var certificate_id = document.getElementById("certificate_id").value
+        if(certificate_id){
+            var xhr = new XMLHttpRequest();
+            xhr.open('get', `http://localhost:3000/participant/${certificate_id}`, true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+            xhr.onload = function () {
+                if (xhr.readyState === xhr.DONE) {
+                    if (xhr.status === 200) {
+                        console.log(xhr.response);
+                    }
+                }
+            };
+            xhr.send();
+            
+            window.location.replace("http://localhost:3000/participant/" + certificate_id);
+            //window.location.href = "http://localhost:3000/" + certificate_id ;
+            
+
+            console.log(certificate_id)
+        }
+    }
+
+    // function createDynamicURL(certificate_id){
+    //     let baseURL = 'http://localhost:3000/'
+    //     baseURL += certificate_id 
+    //     return baseURL
+    // }
+</script>
+
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(
+        14deg,
+        rgba(135, 66, 255, 1) 31%,
+        rgba(244, 196, 243, 1) 100%
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group input {
+    width: 0%;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: all 255ms ease-in-out;
+    opacity: 0;
+    font-size: 1.4rem;
+    color: rgb(135, 66, 255);
+}
+.input-group input::placeholder {
+    color: rgba(135, 66, 255, 0.6);
+}
+.input-group button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 60px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: rgb(135, 66, 255);
+    cursor: pointer;
+    transition: all 255ms ease-in-out;
+}
+.input-group button.active {
+    border-radius: unset;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.input-group input.active {
+    width: 100%;
+    opacity: 1;
+}
+</style>
+
+</html>
