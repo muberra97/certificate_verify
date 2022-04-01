@@ -1,7 +1,7 @@
 module.exports = [
     {
         "id": "0148414WEB",
-        "name": "Mehmet Emin KOBYA",
+        "name": "MEHMET EMİN KOBYA",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : 75
@@ -29,7 +29,7 @@ module.exports = [
     },
     {
         "id": "0243584WEB",
-        "name": "Gizem AKTÜRK",
+        "name": "GİZEM AKTÜRK",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : 75
@@ -57,7 +57,7 @@ module.exports = [
     },
     {
         "id": "0347884WEB",
-        "name": "Tolga OKTAR",
+        "name": "TOLGA OKTAR",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : 100
@@ -85,7 +85,7 @@ module.exports = [
     },
     {
         "id": "0448984WEB",
-        "name": "Nil OKTAR",
+        "name": "NİL OKTAR",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : 100
@@ -113,7 +113,7 @@ module.exports = [
     },
     {
         "id": "0544784WEB",
-        "name": "Müberra BÜLBÜL",
+        "name": "MÜBERRA BÜLBÜL",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : 100
@@ -141,7 +141,7 @@ module.exports = [
     },
     {
         "id": "0649084WEB",
-        "name": "Emre Çolak",
+        "name": "EMRE ÇOLAK",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : 75
@@ -169,7 +169,7 @@ module.exports = [
     },
     {
         "id": "0748364WEB",
-        "name": "Mertcan Zümrüt",
+        "name": "MERTCAN ZÜMRÜT",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : ""
@@ -197,7 +197,7 @@ module.exports = [
     },
     {
         "id": "0848419WEB",
-        "name": "Hümeyra Yurdagül",
+        "name": "HÜMEYRA YURDAGÜL",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "100"
@@ -225,7 +225,7 @@ module.exports = [
     },
     {
         "id": "0943484WEB",
-        "name": "Ali Rıza Arslan",
+        "name": "ALİ RIZA ARSLAN",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "75"
@@ -253,7 +253,7 @@ module.exports = [
     },
     {
         "id": "1048654WEB",
-        "name": "Zehra İkizler",
+        "name": "ZEHRA İKİZLER",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "75"
@@ -281,7 +281,7 @@ module.exports = [
     },
     {
         "id": "1187484WEB",
-        "name": "Furkan Bülbül",
+        "name": "FURKAN BÜLBÜL",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "100"
@@ -309,7 +309,7 @@ module.exports = [
     },
     {
         "id": "1298484WEB",
-        "name": "Nisanur Tokay",
+        "name": "NİSANUR TOKAY",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "50"
@@ -337,7 +337,7 @@ module.exports = [
     },
     {
         "id": "1343984WEB",
-        "name": "Ömer Arslan",
+        "name": "ÖMER ARSLAN",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : ""
@@ -365,7 +365,7 @@ module.exports = [
     },
     {
         "id": "1458484WEB",
-        "name": "Yasin Gürsoy",
+        "name": "YASİN GÜRSOY",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "100"
@@ -393,7 +393,7 @@ module.exports = [
     },
     {
         "id": "154864WEB",
-        "name": "Emre Can Çorapçı",
+        "name": "EMRE CAN ÇORAPÇI",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "75"
@@ -421,7 +421,7 @@ module.exports = [
     },
     {
         "id": "1648534WEB",
-        "name": "Yavuz Haliloğlu",
+        "name": "YAVUZ HALİLOĞLU",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "50"
@@ -449,7 +449,7 @@ module.exports = [
     },
     {
         "id": "1784584WEB",
-        "name": "Büşra Kök",
+        "name": "BÜŞRA KÖK",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "75"
@@ -477,7 +477,7 @@ module.exports = [
     },
     {
         "id": "1849384WEB",
-        "name": "Ali Berkay Taşbölen",
+        "name": "ALİ BERKAY TAŞBÖLEN",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "100"
@@ -505,7 +505,7 @@ module.exports = [
     },
     {
         "id": "1945884WEB",
-        "name": "Abdullah Şahin",
+        "name": "ABDULLAH ŞAHİN",
         "firstWeek": {
             "name" : "Web Server 101 Eğitimi",
             "point" : "50"
@@ -533,7 +533,7 @@ module.exports = [
     },
     {
         "id": "01480549SM",
-        "name": "Mehmet Emin KOBYA",
+        "name": "MEHMET EMİN KOBYA",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "80"
@@ -561,7 +561,7 @@ module.exports = [
     },
     {
         "id": "02484849SM",
-        "name": "Gizem AKTÜRK",
+        "name": "GİZEM AKTÜRK",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "80"
@@ -589,7 +589,7 @@ module.exports = [
     },
     {
         "id": "03484269SM",
-        "name": "Tolga OKTAR",
+        "name": "TOLGA OKTAR",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "100"
@@ -617,7 +617,7 @@ module.exports = [
     },
     {
         "id": "04484559SM",
-        "name": "Nil OKTAR",
+        "name": "NİL OKTAR",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "100"
@@ -645,7 +645,7 @@ module.exports = [
     },
     {
         "id": "05484669SM",
-        "name": "Müberra BÜLBÜL",
+        "name": "MÜBERRA BÜLBÜL",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "100"
@@ -673,7 +673,7 @@ module.exports = [
     },
     {
         "id": "06456849SM",
-        "name": "Emre Çolak",
+        "name": "EMRE ÇOLAK",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "90"
@@ -701,7 +701,7 @@ module.exports = [
     },
     {
         "id": "07484639SM",
-        "name": "Adem Özkan",
+        "name": "ADEM ÖZKAN",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "70"
@@ -729,7 +729,7 @@ module.exports = [
     },
     {
         "id": "08484129SM",
-        "name": "Ahmet Melih Narin",
+        "name": "AHMET MELİH NARİN",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "70"
@@ -757,7 +757,7 @@ module.exports = [
     },
     {
         "id": "09485949SM",
-        "name": "Alper Aliyazıcıoğlu",
+        "name": "ALPER ALİYAZICIOĞLU",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "50"
@@ -785,7 +785,7 @@ module.exports = [
     },
     {
         "id": "10487849SM",
-        "name": "Zeynep Küçükbayrak",
+        "name": "ZEYNEP KÜÇÜKBAYRAK",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "70"
@@ -813,7 +813,7 @@ module.exports = [
     },
     {
         "id": "11489349SM",
-        "name": "Hüsna Bulut",
+        "name": "HÜSNA BULUT",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "40"
@@ -841,7 +841,7 @@ module.exports = [
     },
     {
         "id": "12484549SM",
-        "name": "Müge Dokuz",
+        "name": "MÜGE DOKUZ",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "50"
@@ -869,7 +869,7 @@ module.exports = [
     },
     {
         "id": "13484379SM",
-        "name": "Mertcan Zümrüt",
+        "name": "MERTCAN ZÜMRÜT",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "60"
@@ -897,7 +897,7 @@ module.exports = [
     },
     {
         "id": "14484169SM",
-        "name": "Kübra Çınarlar",
+        "name": "KÜBRA ÇINARLAR",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "40"
@@ -925,7 +925,7 @@ module.exports = [
     },
     {
         "id": "15484299SM",
-        "name": "Sidar Yılmaz",
+        "name": "SİDAR YILMAZ",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "80"
@@ -953,7 +953,7 @@ module.exports = [
     },
     {
         "id": "16438849SM",
-        "name": "Yasemin Ersoy",
+        "name": "YASEMİN ERSOY",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "40"
@@ -981,7 +981,7 @@ module.exports = [
     },
     {
         "id": "17484539SM",
-        "name": "Zeycan Öztürk",
+        "name": "ZEYCAN ÖZTÜRK",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "80"
@@ -1009,7 +1009,7 @@ module.exports = [
     },
     {
         "id": "18487949SM",
-        "name": "Oğuz Kağan Arık",
+        "name": "OĞUZ KAĞAN ARIK",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
             "point" : "80"

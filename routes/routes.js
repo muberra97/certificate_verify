@@ -6,21 +6,21 @@ module.exports = app => {
     const router = require('express').Router()
 
 
-    router.get('/', (req, res, next) => {
-        res.render('index.ejs')
-    })
+    // router.get('/', (req, res, next) => {
+    //     res.render('index.ejs')
+    // })
     
-    router.get('/:id', (req, res) => {
+    router.get('/participant/:id', (req, res) => {
         const id = req.params.id
         const user = users.find(user => user.id === id)
         if(user){
-            res.render('certificate_info.ejs',{'user' : user} );
+            res.render('index.ejs',{'user' : user} );
         }
-        else{
-            res.status(404).send("Bu ID'ye ait katılımcı bulunamadı")
-        }
+        // else{
+        //     res.status(404).send("Bu ID'ye ait katılımcı bulunamadı")
+        // }
         
     })
 
-    app.use('/participant', router)
+    app.use('/', router)
 }
