@@ -792,7 +792,7 @@ module.exports = [
         },
         "secondWeek": {
             "name" : "Dijital Pazarlamanın Temelleri ve Teknik Eğitimi",
-            "point" : "40"
+            "point" : "50"
         },
         "thirdWeek": {
             "name" : "Dijital Varlık ve Online Sistemler Eğitimi",
@@ -816,7 +816,7 @@ module.exports = [
         "name": "HÜSNA BULUT",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
-            "point" : "40"
+            "point" : "50"
         },
         "secondWeek": {
             "name" : "Dijital Pazarlamanın Temelleri ve Teknik Eğitimi",
@@ -876,7 +876,7 @@ module.exports = [
         },
         "secondWeek": {
             "name" : "Dijital Pazarlamanın Temelleri ve Teknik Eğitimi",
-            "point" : "40"
+            "point" : "50"
         },
         "thirdWeek": {
             "name" : "Dijital Varlık ve Online Sistemler Eğitimi",
@@ -892,7 +892,7 @@ module.exports = [
         },
         "sixthWeek": {
             "name" : "Sosyal Medya Stratejisi, İçerik Pazarlaması ve Algoritmalar Eğitimi",
-            "point" : "40"
+            "point" : "50"
         }
     },
     {
@@ -900,11 +900,11 @@ module.exports = [
         "name": "KÜBRA ÇINARLAR",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
-            "point" : "40"
+            "point" : "50"
         },
         "secondWeek": {
             "name" : "Dijital Pazarlamanın Temelleri ve Teknik Eğitimi",
-            "point" : "40"
+            "point" : "50"
         },
         "thirdWeek": {
             "name" : "Dijital Varlık ve Online Sistemler Eğitimi",
@@ -956,7 +956,7 @@ module.exports = [
         "name": "YASEMİN ERSOY",
         "firstWeek": {
             "name" : "Sosyal Medya 101 ve Teknik Eğitimi",
-            "point" : "40"
+            "point" : "50"
         },
         "secondWeek": {
             "name" : "Dijital Pazarlamanın Temelleri ve Teknik Eğitimi",
